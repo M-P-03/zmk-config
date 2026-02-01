@@ -10,5 +10,9 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       import: app/west.yml
+    - name: swoop-zmk-config
+      url: https://github.com/snicklepickles/swoop-zmk-config
+      revision: main
+      path: modules/swoop-zmk-config
   self:
     path: config
